@@ -10,9 +10,7 @@
 <%
 request.setCharacterEncoding("utf-8");
 
-String url_mysql = "jdbc:mysql://106.10.33.249:3306/mmic_db?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul";
-String id_mysql = "mmic";
-String pw_mysql = "mmic!@21";
+
 
 int orga_code = (Integer)session.getAttribute("orga_code");
 String orga_name = (String)session.getAttribute("orga_name");
