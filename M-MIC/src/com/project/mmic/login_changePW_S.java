@@ -19,9 +19,7 @@ public class login_changePW_S extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	private String url_mysql = "jdbc:mysql://106.10.33.249:3306/mmic_db?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul";
-	private String id_mysql = "mmic";
-	private String pw_mysql = "mmic!@21";
+
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
