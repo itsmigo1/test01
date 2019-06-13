@@ -27,9 +27,7 @@
 	String dep_name = "";
 	int dep_code = 0;
 	
-	String url_mysql = "jdbc:mysql://106.10.33.249:3306/mmic_db?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul";
-	String id_mysql = "mmic";
-	String pw_mysql = "mmic!@21";
+
 
 	String A = "SELECT ifnull(usr.picture_code, 'NO IMAGE'), usr.user_name,"; // img, name
 	String A2 = " usr.department_code, dep.department_name,"; // dep_code, dep_name
