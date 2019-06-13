@@ -26,9 +26,7 @@
 	try {
 	
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		String url_mysql = "jdbc:mysql://106.10.33.249:3306/mmic_db?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul";
-		String id_mysql = "mmic";
-		String pw_mysql = "mmic!@21";
+	
 		con = DriverManager.getConnection(url_mysql, id_mysql, pw_mysql);
 		
 		
