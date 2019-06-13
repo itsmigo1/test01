@@ -38,9 +38,7 @@ String orga_name = (String)session.getAttribute("orga_name");
 
 <!-- SQL 정보 영역 -->
 <%
-	String url_mysql = "jdbc:mysql://106.10.33.249:3306/mmic_db?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul";
-	String id_mysql = "mmic";
-	String pw_mysql = "mmic!@21";
+
 	%>
 	
 <!-- 팝업창 모양 영역 -->
