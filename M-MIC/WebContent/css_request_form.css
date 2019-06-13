@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+p {
+	padding: 0 20px 0 20px;
+	font-size: 13px;
+}
+
+table {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+th{
+	color: white;
+	font-weight: 700;
+	background: #133a62;
+	text-align: right;
+	width: 20%;
+	padding:10px;
+}
+
+td {
+	text-align: left;
+	padding: 5px;
+	font-size: 13px;
+	border:1px solid #133a62;
+}
+
+td.td-btn {
+	text-align: right;
+	padding:20px 35px 0 0;
+	border: none;
+}
+
+.sel {
+	width:100%;
+	height:100%;
+	border:none;
+}
+
+.sel2 {
+	width:100%;
+	height:380px;
+	border:none;
+}
+
+.btn {
+	border: 0px;
+	width:30%;
+	height: 40px;
+	background-color: #51c1e5; 
+	font-size:14px;
+	font-weight:bold;
+	color: white;
+	position: relative;
+	transition:background .25s;
+}
+
+.btn:hover{
+	background:#1f7ca2;
+	cursor:pointer;
+}
+
+html, body {
+	margin:0px;
+}

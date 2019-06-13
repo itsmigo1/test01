@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+#device-table {
+	position: relative;
+	width: 95%;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#device-table th {
+	background: #3eb1c6;
+	height: 30px;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#device-table td {
+	height: 30px;
+	font-size: 13px;
+}
+
+th.no {
+	width:25%;
+}
+th.id {
+	width:25%;
+}
+th.cost {
+	width:25%;
+}
+th.date {
+	width:25%;
+}
+
+.btn {
+	border: 0px;
+	width:20%;
+	height: 40px;
+	background-color: #51c1e5; 
+	font-size:14px;
+	font-weight:bold;
+	color: white;
+	position: relative;
+	transition:background .25s;
+	margin: 20px 10px 10px 10px;
+}
+
+.btn:hover{
+	background:#1f7ca2;
+	cursor:pointer;
+}

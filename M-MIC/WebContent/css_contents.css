@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.content-footer {
+	position: relative;
+	text-align:center;
+	width: 60%;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	
+	padding-left: 40%;
+	padding-bottom: 30px;
+}
+
+.editbtn {
+border: 0px; 
+background-color: #51c1e5; 
+width: 10%; 
+height: 40px; 
+font-size:14px;
+font-weight:bold;
+color: white;
+position: relative;
+margin-top: 20px;
+transition:background .25s;
+}
+
+.editbtn:hover{
+background:#1f7ca2;
+cursor:pointer;
+} 

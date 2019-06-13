@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+.table-member {
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+  	font-weight: 700;
+  	
+}
+
+.td-img {
+	text-align: center;
+	width: 30%;
+	border:1px solid #3eb1c6;
+	
+}
+
+.td-header {
+	width:20%;
+	text-align: right;
+	background: #3eb1c6;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+	padding: 5px 20px 5px 0px;
+}
+
+.td-content {
+	text-align: left;
+	padding: 10px;
+	border:1px solid #3eb1c6;
+	
+}
+
+font {
+	font-size: 14px;
+	margin-left:10px;
+}
+
+.sel {
+	width:90%;
+	height:100%;
+	margin-left: 10px;
+}
+
+.start {
+	margin-left: 10px;
+	margin-right: 10px;
+	width:20%;
+}
+
+
+.td-submit {
+	text-align:right;
+	padding: 10px;
+}
+
+.btn {
+	border: 0px;
+	width:18%;
+	height: 40px;
+	background-color: #51c1e5; 
+	font-size:14px;
+	font-weight:bold;
+	color: white;
+	position: relative;
+	transition:background .25s;
+	margin: 20px 10px 10px 10px;
+}
+
+.btn:hover{
+	background:#1f7ca2;
+	cursor:pointer;
+}
