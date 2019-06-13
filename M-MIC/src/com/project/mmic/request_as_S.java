@@ -23,9 +23,7 @@ public class request_as_S extends HttpServlet {
         super();
     }
 
-    private String url_mysql = "jdbc:mysql://106.10.33.249:3306/mmic_db?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul";
-	private String id_mysql = "mmic";
-	private String pw_mysql = "mmic!@21";
+
 	
 	SimpleDateFormat format = new SimpleDateFormat ("yyyy-MM-dd HH:mm:ss");
 	Timestamp timestamp = new Timestamp(System.currentTimeMillis());
